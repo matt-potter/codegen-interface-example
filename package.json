@@ -1,0 +1,21 @@
+{
+  "name": "codegen-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eddeee888/gcg-typescript-resolver-files": "^0.11.0",
+    "@graphql-codegen/cli": "5.0.3",
+    "typescript": "^5.6.3",
+    "@graphql-codegen/typescript": "4.1.1",
+    "@graphql-codegen/typescript-resolvers": "4.4.0"
+  }
+}
